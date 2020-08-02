@@ -172,6 +172,67 @@
         #languages p {
             color: #222222;
         }
+
+        #footer {
+            position: absolute;
+            bottom: 0px;
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F2F2F2;
+            height: 80px;
+            width: 100%
+        }
+
+        #country {
+            background-color: #F2F2F2;
+            color: #7A7D81;
+            border: solid;
+            border-color: #E4E4E4;
+            border-width: 1px;
+            height: 40px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 30px;
+        }
+
+        #footer-links a {
+            background-color: #F2F2F2;
+            color: #5F6368;
+            text-decoration: none;
+        }
+
+        #footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        #footer-links {
+            height: 40px;
+            font-size: 14px;
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 30px;
+        }
+
+        #left-footer-links {
+            background-color: #F2F2F2;
+        }
+
+        #left-footer-links a {
+            padding-right: 23px;
+        }
+
+        #right-footer-links {
+            background-color: #F2F2F2;
+        }
+
+        #right-footer-links a {
+            padding-left: 23px;
+        }
     </style>
     <body>
         <div id="navbar">
@@ -209,6 +270,22 @@
                 <a href="">ಕನ್ನಡ</a>
                 <a href="">മലയാളം</a>
                 <a href="">ਪੰਜਾਬੀ</a>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="country">India</div>
+            <div id="footer-links">
+                <div id="left-footer-links">
+                    <a id="advertising" href="">Advertising</a>
+                    <a id="business" href="">Business</a>
+                    <a id="about" href="">About</a>
+                    <a id="how" id="" href="">How Search works</a>
+                </div>
+                <div id="right-footer-links">
+                    <a id="privacy" href="">Privacy</a>
+                    <a id="terms" href="">Terms</a>
+                    <a id="settings" href="">Settings</a>
+                </div>
             </div>
         </div>
     </body>
